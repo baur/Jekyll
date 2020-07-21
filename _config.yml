@@ -4,3 +4,5 @@ url: https://baur.github.io/Jekyll
 permalink: pretty
 highlighter: rouge
 markdown: kramdown
+sass:
+  style: :compressed
