@@ -8,5 +8,5 @@ markdown: kramdown
 gems:
   - jekyll-paginate
 
-paginate: 10
-paginate_path: "Jekyll/blog/:num"
+paginate: 5
+paginate_path: "/Jekyll/blog/:num"
