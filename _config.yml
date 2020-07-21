@@ -4,5 +4,9 @@ url: https://baur.github.io/Jekyll
 permalink: pretty
 highlighter: rouge
 markdown: kramdown
-sass:
-    style: compressed  
+
+gems:
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "blog/:num"
