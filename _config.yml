@@ -1,0 +1,6 @@
+lang: ru-RU
+encoding: utf-8
+url: https://baur.github.io/Jekyll
+permalink: pretty
+highlighter: rouge
+markdown: kramdown
