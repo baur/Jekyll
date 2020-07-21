@@ -23,8 +23,3 @@ excerpt: Тяжела и неказиста жизнь простого прог
 Этот пробел требует немедленной ликвидации, которой мы и занимаемся.</p>
 
 <p><a href="{{site.baseurl}}/blog/">Блог клуба программистов</a>.</p>
-
-{% for post in site.posts %}
-  <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-  {{ post.excerpt }}
-{% endfor %}
