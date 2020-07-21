@@ -3,7 +3,7 @@ layout: article
 title: Блог клуба программистов
 ---
 <p>
-  <a href="/">На главную</a>
+  <a href="{{site.baseurl}}/">На главную</a>
 </p>
 {% for post in paginator.posts %}
   <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
